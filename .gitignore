@@ -110,6 +110,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.rts2_**
 
 # End of https://www.gitignore.io/api/osx,node,linux,windows
 
@@ -119,6 +120,7 @@ build
 _build
 site
 dist
+dist-temp
 lib
 yarn.lock
 
@@ -126,6 +128,7 @@ yarn.lock
 .vscode
 .idea
 *.iml
+.editorconfig
 
 # Code coverage
 coverage
@@ -133,3 +136,4 @@ coverage
 
 venv
 *.orig
+out/
